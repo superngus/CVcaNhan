@@ -22,4 +22,7 @@
   .container1 {
     width: auto;
   }
+   .banner-img {
+    width: 100%;
+  }
 }

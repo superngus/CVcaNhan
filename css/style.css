@@ -1,0 +1,399 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 20px;
+}
+.bg-grey {
+  background: white;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+}
+
+#nav-bar {
+  text-align: center;
+  height: auto;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.075);
+}
+
+#banner {
+  position: relative;
+  text-align: center;
+  color: #a9a9a9;
+  font-family: sans-serif;
+}
+.name {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+}
+#banner span {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 200%);
+  font-size: 16px;
+}
+.banner-img {
+  height: auto;
+  width: 100%;
+}
+.mt-40 {
+  list-style: none;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak-as: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0.2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+table,
+th,
+td {
+  table-layout: fixed;
+  height: 100px;
+  padding-left: 5px;
+  border-top: 1px solid rgb(192, 188, 188);
+  border-collapse: collapse;
+}
+.mt-40 table,
+.mt-40 th,
+.mt-40 td {
+  border: none;
+}
+/* '' */
+.ic-megaphone:before {
+  display: inline;
+  content: "\e021";
+  font-size: 25px;
+  padding: 15px;
+  color: aqua;
+  border: aqua 2px solid;
+  border-radius: 50%;
+}
+.ic-hotairballoon::before {
+  font-size: 25px;
+  padding: 15px;
+  color: aqua;
+  border: aqua 2px solid;
+  border-radius: 50%;
+}
+.ic-basket {
+  font-size: 25px;
+  padding: 15px;
+  border: aqua 2px solid;
+  border-radius: 50%;
+  color: aqua;
+}
+.ic-strategy:before {
+  font-size: 25px;
+  padding: 15px;
+
+  border: aqua 2px solid;
+  border-radius: 50%;
+  color: aqua;
+}
+.icon-user-1:before {
+  content: "\ea20";
+  color: aqua;
+}
+.icon-doc-text-inv:before {
+  content: "\e891";
+  color: aqua;
+}
+/* '' */
+.icon-mail-alt:before {
+  content: "\e826";
+  color: aqua;
+}
+/* '' */
+.icon-star-1:before {
+  content: "\e82a";
+  color: aqua;
+}
+.icon-twitter:before,
+.icon-gplus:before,
+.icon-linkedin:before,
+.icon-facebook:before {
+  color: rgb(123, 168, 219);
+}
+/* '' */
+.icon-facebook:before {
+  content: "\e9d8";
+}
+
+/* '' */
+.icon-twitter:before {
+  content: "\eb07";
+}
+/* '' */
+.icon-gplus:before {
+  content: "\e9e5";
+}
+/* '' */
+.icon-linkedin:before {
+  content: "\e9f3";
+}
+
+.nav-container {
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  justify-content: center;
+}
+/* .nav-button {
+  display: flex;
+} */
+.nav-button a {
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-button a:hover {
+  background-color: rgb(236, 233, 233);
+  color: black;
+}
+
+.nav-button a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.nav-button {
+  border-left: 1px solid rgb(228, 226, 226);
+  padding: 0px 16px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.bg-grey .container {
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+
+  width: 1170px;
+  margin: auto;
+}
+#target {
+  padding: 50px;
+  text-align: left;
+  background-color: #a9a9a9;
+}
+.section-title {
+  margin-bottom: 50px;
+}
+#personal-info {
+  padding: 50px;
+  background-color: aliceblue;
+}
+#about {
+  margin-top: 10px;
+}
+.info1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+}
+.job {
+  border: #e4e2e2 0.5px solid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: auto auto;
+  display: grid;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.075);
+}
+.job-info {
+  margin-bottom: 20px;
+}
+.EY .bambooairways {
+  grid-row: 2/3;
+  grid-column: 1/3;
+}
+.section-content-edu {
+  grid-row: 2/3;
+  grid-column: 1/3;
+}
+.section-content-exp {
+  grid-row: 2/3;
+  grid-column: 1/3;
+}
+.section-content-lang {
+  grid-row: 2/3;
+  grid-column: 1/3;
+}
+.icon {
+  height: 60px;
+  width: auto;
+  display: inline-block;
+  color: #a9a9a9;
+}
+.header {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+.certificates {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  margin-top: 25px;
+}
+.certi {
+  width: 160px;
+  height: 120px;
+  padding: 10px;
+}
+.con-cer {
+  background-color: rgb(219, 214, 214);
+  padding: 20px;
+
+  margin-top: 25px;
+}
+.alt1 {
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 30px 30px;
+  gap: 20px;
+}
+.data-content {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+.line {
+  border-top: 2px solid #d6c08d;
+}
+.java {
+  border-top: 2px solid #d6c08d;
+  padding-top: 20px;
+}
+.DATABASE {
+  margin-bottom: 20px;
+
+  border-left: 2px solid #d6c08d;
+}
+#project {
+  margin-top: 25px;
+}
+.img-a {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+  border: white solid 4px;
+  transform: translate(0, -50px);
+}
+.table1 .table2 .table3 {
+  border: 1px black solid;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.075);
+}
+.table1 {
+  grid-row: 1/2;
+  display: inline-block;
+  border: 1px rgb(196, 196, 196) solid;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.075);
+}
+
+.table2 {
+  grid-column: 2/3;
+  grid-row: auto;
+  display: inline-block;
+  border: 1px rgb(196, 196, 196) solid;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.075);
+}
+.table3 {
+  grid-column: 3/4;
+  grid-row: auto;
+  display: inline-block;
+  border: 1px rgb(196, 196, 196) solid;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.075);
+}
+.prj {
+  width: 400px;
+  height: auto;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a9a9a9;
+  width: 1170px;
+  margin: auto;
+}
+.link {
+  display: inline-block;
+}
+.year {
+  background-color: rgb(95, 186, 222);
+  color: white;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+.table {
+  gap: 10px;
+}
+.container2 {
+  width: 1250px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 10px;
+
+  border-bottom: 1px rgb(192, 188, 188) solid;
+}
+.prj-tab {
+  padding: 15px 20px;
+  border-bottom: 1px rgb(192, 188, 188) solid;
+}
+.icon-facebook-circled {
+  color: blue;
+}
+.icon-linkedin-circled {
+  color: blue;
+}
+.icon-github-circled {
+  color: blue;
+}
+.infolink {
+  text-decoration: none;
+}
+.headline {
+  text-align: center;
+  font-size: 15px;
+}

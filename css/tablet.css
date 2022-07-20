@@ -1,0 +1,33 @@
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  body {
+    font-size: small;
+    font-weight: 200;
+  }
+  .img-a {
+    display: none;
+  }
+  .info1 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .prj {
+    width: 150px;
+    height: auto;
+  }
+  .container {
+    max-width: 992px;
+  }
+  table,
+  th,
+  td {
+    max-width: 150px;
+    border: none;
+  }
+  .prj-tab {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+  }
+  .icon-prj {
+    display: none;
+  }
+}

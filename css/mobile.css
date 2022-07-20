@@ -1,0 +1,25 @@
+@media screen and (max-width: 576px) {
+  body {
+    font-size: small;
+  }
+  .img-a {
+    display: none;
+  }
+  .nav-container {
+    display: block;
+    width: 576px;
+  }
+  .container {
+    display: block;
+    max-width: 576px;
+  }
+  .alt1 {
+    padding: auto;
+  }
+  .prj {
+    width: 576px;
+  }
+  .container1 {
+    width: auto;
+  }
+}
